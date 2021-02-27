@@ -1,0 +1,26 @@
+ctrl w shortcut
+
+
+Graphs
+Add seconds passed ui to projectiles scene
+close nav drawer when simulation started
+make values precalculated(exact) for pauseAfter and stopAfter
+make values exact when the sphere collides
+(done)make gravity slider's default value 9.8 instead of 9.81;
+(done)delete disabled line objects under exit app button;
+constraint ui texts so that its more readable(less decimals(constant number?))
+(done)show all;
+preset scenarios(simulation properties)
+make copy pasting(through force-player and projectiles-gamemanager not necessary)
+cm/m-g/kg conversion options(possibly also inch options?)
+add preset saving, deleting, editing
+add the -x, +y, -or+z camera preset
+(done)fix spot angle slider's default value(should be 75 instead of 1);
+(done)fy.maxval = g.val;
+take stopafter/pauseafter timings into fixedupdate/update
+mousex, mousey, mousescroll -> x, y, z camera position handling
+make variables unchangable while the simulation is running
+put tesla and einstein to the sides that will not be seen when animation eneded
+add flightTimeText, set its text according to whether expectedFlightTime or remainingFlightTime should be used
+change expectedRemainingFlightTime's name to remainingFlightTime(or not)
+projectile motion: fix maxvalues, slider appearence etc (maxval = massval * constant)
